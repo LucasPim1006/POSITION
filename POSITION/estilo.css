@@ -15,10 +15,15 @@ body{
     left: 9.4%;   
 }
 header{
-    position: sticky;
+    position: fixed;
     top: 0;
-    z-index: 20;
+    left: 0;
+    width: 100%;
+    z-index: 9999;
     background-color: white;
+    
+    
+    
 }
 
 ul{ list-style: none;
@@ -76,19 +81,21 @@ text-transform: uppercase;
     font-family:"roboto", sans-serif;   
 }
 
-section { height: 78vh;
+.imagem1 { height: 78vh;
 background-image: url(https://preview.colorlib.com/theme/rooftop/img/header-bg.png);
 background-position: center;
 background-repeat: no-repeat;
 background-size: contain;
 position: relative;
+margin-top: 86px;
+
 
 }
 #verMenu{position: fixed;
 background-image: url("https://preview.colorlib.com/theme/rooftop/img/view-menu-bg.png");
 width: 92px;
 height: 180px;
-top:44%;
+top:43%;
 
    
 }
@@ -245,7 +252,8 @@ left: -30px;}
 .alinhartextos{position: absolute;
 
   width: 1150px;
-  left: 20%;
+  left: 50%;
+  transform: translateX(-50%);
   height: 1000px;
 
 }
@@ -321,17 +329,115 @@ left: -30px;}
     font-weight:500;
     margin-bottom: 15px;
 }
-.align-items-center{ position: relative;
-    background-color: rgba(0, 0, 0, 0.425);
-    top: 1200px;
+.align-items{
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 1150px;
     height: 1000px;
-    width: 58%;
-    left: 21%
+    width: 1140px;
+    
 }
+.linha1{display: flex;}
+.linha2{display: flex;}
+
 .ImgSushi{position:relative;
     background-image: url(https://preview.colorlib.com/theme/rooftop/img/gallery/g1.jpg);
-    width: 550px; height: 800px;
+    width: 540px; height: 778.38px;
+    margin: 15px;
     top: -200px;
-
+}
+.ImgMassa{position:relative;
+    background-image: url(https://preview.colorlib.com/theme/rooftop/img/gallery/g2.jpg);
+    width: 445px; height: 545.28px;
+    
+    margin: 15px;
+    margin-top: 140px;
+}
+.ImgMacarron{position:relative;
+    background-image: url(https://preview.colorlib.com/theme/rooftop/img/gallery/g3.jpg);
+    width: 445px; height: 545.28px;
+    top: -200px;
+    margin: 15px;
+    margin-left: 110px;
+}
+.ImgSalada{position:relative;
+    background-image: url(https://preview.colorlib.com/theme/rooftop/img/gallery/g4.jpg);
+    width: 540px; height: 583.78px;
+    top: -110px;
+    margin: 15px;
+}
+.ImgSushi,.ImgMassa,.ImgMacarron,.ImgSalada{
+    position: relative;
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: 0.4s;
+    z-index: 5;
+}
+.ImgMacarron:hover,.ImgMassa:hover,.ImgSalada:hover,.ImgSushi:hover{
+    background-size: 125%;    
+}
+.ImgMacarron:hover .ImgMacarron1,.ImgMassa:hover .ImgMassa1,.ImgSalada:hover .ImgSalada1,.ImgSushi:hover .ImgSushi1{
+    position: relative;
+    opacity: 1;  
+    z-index: 10;
 }
 
+.ImgSushi1{position:relative;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 540px; height: 778.38px;  
+}
+.ImgMassa1{position:relative;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 445px; height: 545.28px;
+   
+}
+.ImgMacarron1{position:relative;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 445px; height: 545.28px;
+
+   
+}
+.ImgSalada1{position:relative;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 540px; height: 583.78px;
+
+}
+.ImgSushi1,.ImgMassa1,.ImgMacarron1,.ImgSalada1{
+    position: relative;
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: 0.4s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:white;
+    font-size: 65px;
+    font-weight: 100;
+    opacity: 0;  
+    z-index: 0;
+}
+.reservation-area{position: relative; background-color: rgba(0, 0, 0, 0.301);
+    width: 100%;
+    height: 938px;
+    top: 1565px;
+    justify-content: center;
+    display: flex;
+}
+.container{
+    height: 938px;
+    width: 1140px;
+    background-color: rgba(127, 255, 212, 0.425);
+    display: flex;
+}
+.information{
+    width: 635px; height: 938px;
+    background-color: rgba(255, 0, 0, 0.295);
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.escritinha{
+    width: 295px; height: 432px;
+}
