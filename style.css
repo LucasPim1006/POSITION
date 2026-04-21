@@ -1,0 +1,443 @@
+
+*{
+margin: 0;
+box-sizing: border-box;
+}
+
+body{
+    font-family: "Roboto", sans-serif;
+}
+
+#logo img{ width:66.81px;
+    height: 79.38;
+    margin-top: 15px;
+    position: relative;
+    left: 9.4%;   
+}
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 9999;
+    background-color: white;
+    
+    
+    
+}
+
+ul{ list-style: none;
+padding: 0;
+text-align: center;
+}
+
+#logo { width: 21%;
+vertical-align: middle;}
+
+header li{display: inline-block;
+  width: 4%;    
+}
+#droppages{width: 5%;}
+#dropblog{width: 6%;}
+#galeria{width: 5%;}
+
+a {font-size: 13px;
+    color: black;
+    text-decoration: none;
+    font-weight: 500;
+    letter-spacing: 2px;  
+    transition: 0.2s;  
+}
+
+hr{
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    border: 0;
+    border-top: 1px solid rgba(255, 255, 255, 0.527);   
+}
+
+#ativo a{color: #ad9966;}
+
+a:hover{color: #ad9966;}
+
+#text-center { position:absolute;
+text-align: center;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+
+color: #fff;
+text-transform: uppercase;
+
+}
+#text-center p{
+    font-size: 72px;
+    text-transform: uppercase;
+    letter-spacing: 10.8px;
+    font-family: "Playfair Display", serif;
+}
+#text-center span{position: relative;
+    text-align: center;
+    font-family:"roboto", sans-serif;   
+}
+
+.imagem1 { height: 78vh;
+background-image: url(https://preview.colorlib.com/theme/rooftop/img/header-bg.png);
+background-position: center;
+background-repeat: no-repeat;
+background-size: contain;
+position: relative;
+margin-top: 86px;
+
+
+}
+#verMenu{position: fixed;
+background-image: url("https://preview.colorlib.com/theme/rooftop/img/view-menu-bg.png");
+width: 92px;
+height: 180px;
+top:43%;
+
+   
+}
+#verMenu a{position: relative;
+    font-size: 13px;
+    top: 30.6%;
+    letter-spacing: 0px;
+    writing-mode: vertical-rl;
+    left: 26%;
+    font-weight: 400; 
+    
+    transition: 0.4s;       
+}
+#verMenu:hover a{position: relative;
+   
+    transform: rotate(-90deg);
+    left: 40%;    
+}
+#verMenu p{position: relative;
+    width: 92px;
+    
+    height: 100%;
+}
+#BOOKaTABLE{position: fixed;
+    background-image: url("https://preview.colorlib.com/theme/rooftop/img/book-table-bg.png");
+    width: 92px;
+    height: 180px;
+    top: 43%;
+    right: 0;
+    z-index: 10;
+}
+    #BOOKaTABLE a{position: relative;
+        font-size: 13px;
+        top: 26%;
+        letter-spacing: 0px;
+        writing-mode: vertical-lr;
+        left: 55%;
+        font-weight: 400; 
+        color:white;
+        transition: 0.4s;       
+    }
+    #BOOKaTABLE a:hover{ color: black;}
+    #BOOKaTABLE:hover a{position: relative;  
+        transform: rotate(-90deg);
+        left: 46%; 
+        top: 26%;
+    }
+    #BOOKaTABLE p{position: relative;
+        width: 92px;
+        
+        height: 100%;
+    }
+    #droppages li{
+        display: block;   
+        width: 165px;
+        height: 65px;
+      
+       background-color: rgb(255, 255, 255);           
+    }
+    #droppages{
+       
+       position:relative; 
+            
+    }
+    #droppages ul{
+        z-index: 0;
+        opacity: 0; 
+    }
+
+.drop{position:absolute;
+    transition: 0.4s;
+}
+.contact{
+position: relative;
+top:45px;
+left: -30px;}
+.elements{
+    position: relative;
+   top: 20px;
+    left: -25px;}
+#droppages:hover ul{
+
+    z-index: 10;
+    opacity: 1;
+}
+ #droppages li{
+        display: block;   
+        width: 165px;
+        height: 65px;
+      
+       background-color: rgb(255, 255, 255);           
+    }
+    #droppages{
+       
+       position:relative; 
+            
+    }
+    #droppages ul{
+        z-index: 0;
+        opacity: 0; 
+    }
+----------------------------------------
+
+    #dropblog li{
+        display: block;   
+        width: 165px;
+        height: 65px;
+      
+       background-color: rgb(255, 255, 255);           
+    }
+    #dropblog{position:relative;             
+    }
+    #dropblog ul{
+        z-index: 0;
+        opacity: 0; 
+    } 
+    #dropblog li{
+        display: block;   
+        width: 165px;
+        height: 65px;
+      
+       background-color: rgb(255, 255, 255);           
+    }
+    #dropblog{       
+       position:relative;            
+    }
+    #dropblog ul{
+        z-index: 0;
+        opacity: 0; 
+    } 
+    #dropblog:hover ul{
+        z-index: 10;
+        opacity: 1;
+    }  
+.blog{
+    position: relative;
+    top:45px;
+    left: -45px;}
+.blogdetail{
+    position: relative;
+    top: 20px;
+    left: -20px;}
+.paraBaixo{
+    text-align: center;
+    position: relative;
+    top: -55px;
+    
+}
+.paraBaixo a{   
+    position: relative;   
+}
+.paraBaixo img {width: auto; height: auto;
+}
+.alinhartextos{position: absolute;
+
+  width: 1150px;
+  left: 50%;
+  transform: translateX(-50%);
+  height: 1000px;
+
+}
+.textoEsquerda{position: relative;
+   
+    width: 40%;
+    left: 15px;
+    height: 516px;
+    top: 30%;  
+    
+}
+.textoEsquerda h1{font-size: 48px;
+    font-family: "Playfair Display", serif;
+    text-transform: uppercase;
+    font-weight: 400;
+    letter-spacing: 8px;
+    line-height: 74px;
+    margin-bottom: 30px;
+}
+.textoEsquerda p{position: relative;
+    color: #777777;
+    width: 85%;
+    margin-bottom: 40px;
+    line-height: 30px; 
+    font-size: 15px;   
+}
+.btnVerMenuInteiro{
+    line-height: 48px;
+    padding: 0 30px;
+    border-radius: 0px;
+    background: #ad9966;
+    border: 1px solid #ad9966;
+    color: #fff;
+    display: inline-block;
+    font-weight: normal;
+    position: relative;
+    letter-spacing: 2px;
+    font-size: 15px;
+    transition: 0.4s;
+    
+}
+.btnVerMenuInteiro:hover{background-color: rgb(255, 255, 255);}
+.textoDireito{position: relative;
+    left: 43%;
+    width: 55%;
+    right: -560px;
+    height: 1170px;
+    top: -670px;  
+    text-align: center; 
+    background-color: #faf5f0;
+    z-index: 0;
+}
+.textoDireito h3{position: relative;
+    
+    font-size: 21px;
+    position: relative;
+    padding-bottom: 20px;
+    font-style: italic;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+    font-family: "Playfair Display", serif;
+    font-weight: 400;
+    margin-top: 100px;
+    
+}
+.single-menu{position:relative;
+    top:80px;
+    margin-bottom: 80px;
+}
+.cinza{color:#777777;margin-bottom: 50px;}
+
+.menu-item{color:black;
+    font-weight:500;
+    margin-bottom: 15px;
+}
+.align-items{
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 1150px;
+    height: 1000px;
+    width: 1140px;
+    
+}
+.linha1{display: flex;}
+.linha2{display: flex;}
+
+.ImgSushi{position:relative;
+    background-image: url(https://preview.colorlib.com/theme/rooftop/img/gallery/g1.jpg);
+    width: 540px; height: 778.38px;
+    margin: 15px;
+    top: -200px;
+}
+.ImgMassa{position:relative;
+    background-image: url(https://preview.colorlib.com/theme/rooftop/img/gallery/g2.jpg);
+    width: 445px; height: 545.28px;
+    
+    margin: 15px;
+    margin-top: 140px;
+}
+.ImgMacarron{position:relative;
+    background-image: url(https://preview.colorlib.com/theme/rooftop/img/gallery/g3.jpg);
+    width: 445px; height: 545.28px;
+    top: -200px;
+    margin: 15px;
+    margin-left: 110px;
+}
+.ImgSalada{position:relative;
+    background-image: url(https://preview.colorlib.com/theme/rooftop/img/gallery/g4.jpg);
+    width: 540px; height: 583.78px;
+    top: -110px;
+    margin: 15px;
+}
+.ImgSushi,.ImgMassa,.ImgMacarron,.ImgSalada{
+    position: relative;
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: 0.4s;
+    z-index: 5;
+}
+.ImgMacarron:hover,.ImgMassa:hover,.ImgSalada:hover,.ImgSushi:hover{
+    background-size: 125%;    
+}
+.ImgMacarron:hover .ImgMacarron1,.ImgMassa:hover .ImgMassa1,.ImgSalada:hover .ImgSalada1,.ImgSushi:hover .ImgSushi1{
+    position: relative;
+    opacity: 1;  
+    z-index: 10;
+}
+
+.ImgSushi1{position:relative;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 540px; height: 778.38px;  
+}
+.ImgMassa1{position:relative;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 445px; height: 545.28px;
+   
+}
+.ImgMacarron1{position:relative;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 445px; height: 545.28px;
+
+   
+}
+.ImgSalada1{position:relative;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 540px; height: 583.78px;
+
+}
+.ImgSushi1,.ImgMassa1,.ImgMacarron1,.ImgSalada1{
+    position: relative;
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: 0.4s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:white;
+    font-size: 65px;
+    font-weight: 100;
+    opacity: 0;  
+    z-index: 0;
+}
+.reservation-area{position: relative; background-color: rgba(0, 0, 0, 0.301);
+    width: 100%;
+    height: 938px;
+    top: 1565px;
+    justify-content: center;
+    display: flex;
+}
+.container{
+    height: 938px;
+    width: 1140px;
+    background-color: rgba(127, 255, 212, 0.425);
+    display: flex;
+}
+.information{
+    width: 635px; height: 938px;
+    background-color: rgba(255, 0, 0, 0.295);
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.escritinha{
+    width: 295px; height: 432px;
+}
